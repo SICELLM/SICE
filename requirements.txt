@@ -1,0 +1,25 @@
+# Core (CUDA 12.8 wheels for torch; see setup_manual.sh)
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+transformers==4.55.2
+peft==0.15.2
+bitsandbytes==0.46.0
+# flash-attn is optional: when absent, the code falls back to PyTorch SDPA attention
+# (see setup_manual.sh for the prebuilt cp312 wheel; recommended for speed)
+huggingface_hub
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+sqlglot
+psycopg2-binary
+einops
+pyparsing
+seaborn
+alive_progress
+wheel
+tiktoken
+protobuf
+sentencepiece
